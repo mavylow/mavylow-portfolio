@@ -22,7 +22,7 @@ const Portfolio = () => {
 
         <div className="flex flex-wrap relative items-center justify-center gap-6 my-10 ">
           <ProjectCard
-            imgSrc={"../public/gif/Todo.gif"}
+            imgSrc={"./gif/Todo.gif"}
             title="Todo App"
             description=" The ToDo List application with multi-level
                 filtering by difficulty is a powerful tool
@@ -39,7 +39,7 @@ const Portfolio = () => {
           />
 
           <ProjectCard
-            imgSrc={"../public/gif/Lamoda2.gif"}
+            imgSrc={"/gif/Lamoda2.gif"}
             title="Shop Website"
             description="The Shop Website is a modern web application
                 designed to provide users with a seamless
@@ -56,7 +56,7 @@ const Portfolio = () => {
           />
 
           <ProjectCard
-            imgSrc={"../public/gif/SPA.gif"}
+            imgSrc={"/gif/SPA.gif"}
             title="SPA"
             description="This project showcases a simple Single Page
                 Application (SPA) developed using React and
@@ -76,7 +76,7 @@ const Portfolio = () => {
           />
 
           <ProjectCard
-            imgSrc={"../public/gif/Notion.gif"}
+            imgSrc={"/gif/Notion.gif"}
             title="Notion"
             description="This project is a note-taking application
                 inspired by Notion, built with React. It

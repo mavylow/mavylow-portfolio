@@ -11,7 +11,7 @@ import {
   NightButton,
   Tg,
 } from "../public/icons";
-const photo = "/public/img/photo.png";
+const photo = "/img/photo.png";
 export default function CV() {
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
