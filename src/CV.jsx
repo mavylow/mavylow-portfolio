@@ -17,7 +17,7 @@ export default function CV() {
   return (
     <div className="flex justify-center ">
       <div
-        className={`main max-w-[595px] w-full ${
+        className={`main max-w-[1000px] w-full ${
           theme === "night"
             ? "bg-radial-night-cv"
             : "bg-radial-day-cv"
