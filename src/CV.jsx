@@ -114,7 +114,7 @@ export default function CV() {
                 <div className="flex justify-end pt-8">
                   <a
                     href="#portfolio"
-                    className="text-[11px] border px-[0.5vw] rounded-[0.7vw] border-[rgb(140,144,154)] flex justify-center laptop:text-[1.3vw] w-auto  "
+                    className="text-[11px] border px-[0.5vw] rounded-[0.7vw] border-[rgb(140,144,154)] flex justify-center laptop:text-[1.3vw] laptop:border-2 w-auto  "
                   >
                     my portfolio
                   </a>

@@ -32,7 +32,7 @@ export const ProjectCard = ({
         <p className="text-center text-sm py-[1vw] laptop:text-[1.3vw]">
           Tools used
         </p>
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-row gap-3">
           {tools.map((tool) => (
             <SkillBar
               key={tool.name}

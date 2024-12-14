@@ -16,7 +16,7 @@ const Portfolio = () => {
         id="portfolio"
         className={`portfolio mb-2 px-10 w-full ${theme} phone:max-w-[100vw] ipad:max-w-[80vw]   laptop:max-w-[75vw] laptop:px-[5vw]`}
       >
-        <div className="flex justify-end py-5 text-[23px] sm:text-2xl phone:text-3xl  laptop:text-[3vw]">
+        <div className="flex justify-end py-[3vw] text-[23px] sm:text-2xl phone:text-3xl  laptop:text-[3vw]">
           Portfolio
         </div>
         <hr className="border-t border-[rgba(140,144,154,0.4)]  w-full " />
@@ -98,7 +98,7 @@ const Portfolio = () => {
 
         <hr className="border-t border-[rgba(140,144,154,0.4)]  w-full " />
 
-        <div className=" py-4 flex flex-col px-10 text-[8px] item-bottom justify-between flex-wrap sm:text-[8px] sm:flex-row  laptop:text-[1vw]">
+        <div className=" py-[2vw] flex flex-col px-10 text-[8px] item-bottom justify-between flex-wrap sm:text-[8px] sm:flex-row  laptop:text-[1vw]">
           <a href="https://t.me/mavyllow">
             <span className="flex flex-row gap-1 pr-0.5">
               <Tg />
