@@ -174,7 +174,7 @@ export default function CV() {
 
                     <SkillBar
                       skillName="SQL"
-                      percentage={30}
+                      percentage={50}
                     />
                   </div>
                 </div>
@@ -223,7 +223,7 @@ export default function CV() {
                     />
                     <SkillBar
                       skillName="Git"
-                      percentage={40}
+                      percentage={60}
                     />
                     <SkillBar
                       skillName="Adobe Photoshop"

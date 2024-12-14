@@ -33,7 +33,7 @@ export default function SkillBar({
           theme === "night"
             ? "border-night-progress"
             : "border-day-progress"
-        } laptop:h-[2.5vw] laptop:rounded-[1vw] laptop:border-[1.5px]`}
+        } laptop:h-[2.5vw] laptop:rounded-[1vw] laptop:border-2`}
       ></div>
     </div>
   );
