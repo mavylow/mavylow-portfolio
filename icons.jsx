@@ -5,10 +5,9 @@ export function Tg() {
   const { theme } = useContext(ThemeContext);
   return (
     <svg
+      className="svg-icon"
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
-      width="8px"
-      height="8px"
       viewBox="0 0 512.000000 512.000000"
       preserveAspectRatio="xMidYMid meet"
     >
@@ -43,10 +42,11 @@ export function Linkedin() {
   const { theme } = useContext(ThemeContext);
   return (
     <svg
+      className="svg-icon"
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
-      width="8px"
-      height="8px"
+      // width="8px"
+      // height="8px"
       viewBox="0 0 512.000000 512.000000"
       preserveAspectRatio="xMidYMid meet"
     >
@@ -78,10 +78,9 @@ export function GitHub() {
   const { theme } = useContext(ThemeContext);
   return (
     <svg
+      className="svg-icon"
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
-      width="8px"
-      height="8px"
       viewBox="0 0 512.000000 512.000000"
       preserveAspectRatio="xMidYMid meet"
     >
@@ -119,10 +118,9 @@ export function Envelop() {
   const { theme } = useContext(ThemeContext);
   return (
     <svg
+      className="svg-icon"
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
-      width="9px"
-      height="9px"
       viewBox="0 0 512.000000 512.000000"
       preserveAspectRatio="xMidYMid meet"
     >
@@ -160,8 +158,7 @@ export function Envelop() {
 export function DayButton() {
   return (
     <svg
-      width="10"
-      height="10"
+      className="svg-toggle"
       viewBox="0 0 30 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -191,8 +188,7 @@ export function DayButton() {
 export function NightButton() {
   return (
     <svg
-      width="10"
-      height="10"
+      className="svg-toggle"
       viewBox="0 0 30 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
