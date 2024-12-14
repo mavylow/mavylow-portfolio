@@ -7,7 +7,7 @@ export const ProjectCard = ({
   link,
   tools,
 }) => (
-  <div className="card flex flex-col relative w-[260px] min-h-[350px] h-fit border border-gray-400 rounded-md justify-center items-center pt-2 pb-[1vw]  laptop:w-[30vw]">
+  <div className="card flex flex-col relative w-[260px] min-h-[370px] h-fit border border-gray-400 rounded-md justify-center items-center pt-2 pb-[1vw]  laptop:w-[30vw]">
     <div className="imgBx h-auto w-[240px] bg-slate-300 rounded-md  laptop:w-[28vw]">
       <img
         className="w-full h-full object-cover "

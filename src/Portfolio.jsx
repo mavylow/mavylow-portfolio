@@ -59,10 +59,9 @@ const Portfolio = () => {
           <ProjectCard
             imgSrc={"./gif/SPA.gif"}
             title="SPA"
-            description="This project showcases a simple Single Page
-                Application (SPA) developed using React and
-                React Router. The main objective of this
-                application is to provide a fluid and
+            description="This project showcases a Single Page
+                Application developed using React Router. The main objective of this
+                application is to provide
                 responsive user experience by enabling
                 seamless navigation between various
                 components without the need for full page
