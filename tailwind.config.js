@@ -18,6 +18,8 @@ export default {
         "night-bg": "rgb(42,42,69)",
       },
       screens: {
+        laptop: "900px",
+        ipad: "700px",
         phone: "550px",
         sm: "390px",
       },
