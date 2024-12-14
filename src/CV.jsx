@@ -99,6 +99,9 @@ export default function CV() {
             </div>
             <div className="flex flex-col w-2/3 relative">
               <div className="flex flex-col">
+                <p className="font-bold font-inter text-[11px] pb-1  laptop:text-[1.2vw] laptop:pb-[1vw]">
+                  self-employment
+                </p>
                 <p className="text-[10px]  font-inter font-normal w-11/12 laptop:text-[1.1vw]">
                   Front-End Developer with a strong focus on
                   creating and maintaining a reusable
