@@ -14,14 +14,14 @@ const Portfolio = () => {
     <div className="flex justify-center">
       <div
         id="portfolio"
-        className={`portfolio mb-2 px-10 w-full ${theme} phone:max-w-[100vw] ipad:max-w-[80vw]   laptop:max-w-[75vw] laptop:px-[5vw]`}
+        className={`portfolio mb-2  w-full ${theme} phone:max-w-[100vw] ipad:max-w-[80vw]   laptop:max-w-[75vw] `}
       >
-        <div className="flex justify-end py-[3vw] text-[23px] sm:text-2xl phone:text-3xl  laptop:text-[3vw]">
+        <div className="flex justify-end py-[3vw] px-10 text-[23px] sm:text-2xl phone:text-3xl  laptop:text-[3vw] laptop:px-[5vw]">
           Portfolio
         </div>
         <hr className="border-t border-[rgba(140,144,154,0.4)]  w-full " />
 
-        <div className="flex flex-wrap relative items-center justify-center gap-6 my-10 ">
+        <div className="flex flex-wrap px-2 relative items-center justify-center gap-6 my-10 laptop:px-[5vw] ">
           <ProjectCard
             imgSrc={"./gif/Todo.gif"}
             title="Todo App"
