@@ -59,9 +59,9 @@ export default function CV() {
                 </div>
                 <div className="flex flex-col text-[8px] item-bottom justify-between flex-wrap sm:text-[8px] sm:flex-row laptop:text-[1vw] ">
                   <a href="https://t.me/mavyllow">
-                    <span className="flex flex-row gap-1 pr-0.5">
+                    <span className="flex flex-row gap-1 pr-0.5 items-center">
                       <Tg />
-                      <p>mavyllow</p>
+                      <p >mavyllow</p>
                     </span>
                   </a>
                   <a href="https://www.linkedin.com/in/sofia-majseenko-92107a1b6/">
