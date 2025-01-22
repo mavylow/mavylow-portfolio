@@ -19,7 +19,7 @@ export const ProjectCard = ({
       <h2 className="text-base p-[1.5vw]  laptop:text-[2vw]">
         {title}
       </h2>
-      <p className="block text-[9px] font-inter transition-opacity h-1/2 duration-300 px-[2vw] laptop:text-[1.1vw] ">
+      <p className="block text-[10px] font-inter px-4 transition-opacity h-1/2 duration-300 laptop:px-[2vw] laptop:text-[1.1vw] ">
         {description}
       </p>
       <a
