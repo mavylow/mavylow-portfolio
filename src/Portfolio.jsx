@@ -87,7 +87,7 @@ const Portfolio = () => {
                 smooth note-taking experience."
             link="https://github.com/mavylow/Notion.git"
             tools={[
-              { name: "HTML", percentage: 100 },
+              { name: "Zod", percentage: 100 },
               { name: "Redux", percentage: 100 },
               { name: "React", percentage: 100 },
               { name: "Tailwind", percentage: 100 },
