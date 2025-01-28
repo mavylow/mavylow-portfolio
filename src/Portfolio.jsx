@@ -119,7 +119,7 @@ const Portfolio = () => {
           <a href="mailto:majsofia2005@gmail.com">
             <span className="flex flex-row gap-1  ">
               <Envelop />
-              <p>majsofia2005@gmail.com</p>
+              <p>sofa.majseenko@gmail.com</p>
             </span>
           </a>
         </div>

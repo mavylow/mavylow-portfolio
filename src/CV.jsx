@@ -79,7 +79,7 @@ export default function CV() {
                   <a href="mailto:majsofia2005@gmail.com">
                     <span className="flex flex-row gap-1  ">
                       <Envelop />
-                      <p>majsofia2005@gmail.com</p>
+                      <p>sofa.majseenko@gmail.com</p>
                     </span>
                   </a>
                 </div>
@@ -259,8 +259,7 @@ export default function CV() {
                   <p className="font-bold ">
                     Belarusian State University
                   </p>
-                  Mathematical and Software Engineering for
-                  mobile devices
+                  Math & CS
                 </div>
               </div>
             </div>
