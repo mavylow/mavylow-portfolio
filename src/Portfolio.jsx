@@ -1,11 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "./context/themeContext";
-import {
-  Envelop,
-  GitHub,
-  Linkedin,
-  Tg,
-} from "../public/icons";
+import { Envelop, GitHub, Linkedin, Tg } from "../public/icons";
 import { ProjectCard } from "./ProjectCard";
 
 const Portfolio = () => {
@@ -78,16 +73,10 @@ const Portfolio = () => {
           <ProjectCard
             imgSrc={"./gif/Notion.gif"}
             title="Notion"
-            description="This project is a note-taking application
-                inspired by Notion, built with React. It
-                features user authentication and
-                functionalities for creating, managing, and
-                organizing notes. The application provides a
-                user-friendly interface and allows for a
-                smooth note-taking experience."
+            description="This project is a full-stack web application for note management with an interactive dashboard. The application features a dual-view interface for organizing notes—both as a traditional list and an interactive board—providing users with flexible and intuitive ways to manage their content."
             link="https://github.com/mavylow/Notion.git"
             tools={[
-              { name: "Zod", percentage: 100 },
+              { name: "Express", percentage: 100 },
               { name: "Redux", percentage: 100 },
               { name: "React", percentage: 100 },
               { name: "Tailwind", percentage: 100 },
