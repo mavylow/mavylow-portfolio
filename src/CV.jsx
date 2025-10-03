@@ -18,20 +18,13 @@ export default function CV() {
     <div className="flex justify-center ">
       <div
         className={`main w-full ${
-          theme === "night"
-            ? "bg-radial-night-cv"
-            : "bg-radial-day-cv"
+          theme === "night" ? "bg-radial-night-cv" : "bg-radial-day-cv"
         } ${
-          theme === "night"
-            ? "text-font-night"
-            : "text-font-day"
+          theme === "night" ? "text-font-night" : "text-font-day"
         } phone:max-w-[100vw] ipad:max-w-[80vw]  laptop:max-w-[75vw]  `}
       >
         <div className="flex justify-end w-full p-5 pb-6 laptop:p-10 laptop:pb-[4vw]  ">
-          <div
-            className=" cursor-pointer"
-            onClick={toggleTheme}
-          >
+          <div className=" cursor-pointer" onClick={toggleTheme}>
             {theme === "night" && <NightButton />}{" "}
             {theme === "day" && <DayButton />}{" "}
           </div>
@@ -53,15 +46,13 @@ export default function CV() {
                   <h2 className="text-s text-end sm:text-m phone:text-xl ipad:text-[3vw]  laptop:text-[3vw] laptop:pt-[2vw] laptop:pb-[1vw] ">
                     FrontEnd Developer
                   </h2>
-                  <p className="text-[9px] laptop:text-[1vw] ">
-                    Belarus
-                  </p>
+                  <p className="text-[9px] laptop:text-[1vw] ">Belarus</p>
                 </div>
                 <div className="flex flex-col text-[8px] item-bottom justify-between flex-wrap sm:text-[8px] sm:flex-row laptop:text-[1vw] ">
                   <a href="https://t.me/mavyllow">
                     <span className="flex flex-row gap-1 pr-0.5 items-center">
                       <Tg />
-                      <p >mavyllow</p>
+                      <p>mavyllow</p>
                     </span>
                   </a>
                   <a href="https://www.linkedin.com/in/sofia-majseenko-92107a1b6/">
@@ -103,16 +94,13 @@ export default function CV() {
                   self-employment
                 </p>
                 <p className="text-[10px]  font-inter font-normal w-11/12 laptop:text-[1.1vw]">
-                  Front-End Developer with a strong focus on
-                  creating and maintaining a reusable
-                  codebase. Passionate about learning and
-                  development, with a desire to apply skills
-                  in real-world projects. Eager to tackle
-                  complex problems and continuously seek
-                  ways to maximize efficiency and improve
-                  user experience. Committed to
-                  collaborating with teams to deliver
-                  high-quality solutions.
+                  Front-End Developer with a strong focus on creating and
+                  maintaining a reusable codebase. Passionate about learning and
+                  development, with a desire to apply skills in real-world
+                  projects. Eager to tackle complex problems and continuously
+                  seek ways to maximize efficiency and improve user experience.
+                  Committed to collaborating with teams to deliver high-quality
+                  solutions.
                 </p>
                 <div className="flex justify-end pt-8">
                   <a
@@ -143,14 +131,8 @@ export default function CV() {
                     Underline indicators
                   </p>
                   <div className="flex flex-row font-inter flex-wrap gap-2">
-                    <SkillBar
-                      skillName="Low quality"
-                      percentage={30}
-                    />
-                    <SkillBar
-                      skillName="High quality"
-                      percentage={100}
-                    />
+                    <SkillBar skillName="Low quality" percentage={30} />
+                    <SkillBar skillName="High quality" percentage={100} />
                   </div>
                 </div>
                 <div className="mb-4">
@@ -158,27 +140,12 @@ export default function CV() {
                     languages
                   </p>
                   <div className="flex flex-row font-inter flex-wrap gap-2">
-                    <SkillBar
-                      skillName="HTML"
-                      percentage={100}
-                    />
-                    <SkillBar
-                      skillName="CSS/SCSS"
-                      percentage={100}
-                    />
-                    <SkillBar
-                      skillName="JavaScript"
-                      percentage={100}
-                    />
-                    <SkillBar
-                      skillName="TypeScript"
-                      percentage={60}
-                    />
+                    <SkillBar skillName="HTML" percentage={100} />
+                    <SkillBar skillName="CSS/SCSS" percentage={100} />
+                    <SkillBar skillName="JavaScript" percentage={100} />
+                    <SkillBar skillName="TypeScript" percentage={60} />
 
-                    <SkillBar
-                      skillName="SQL"
-                      percentage={50}
-                    />
+                    <SkillBar skillName="SQL" percentage={50} />
                   </div>
                 </div>
 
@@ -187,27 +154,12 @@ export default function CV() {
                     technologies
                   </p>
                   <div className="flex flex-row font-inter gap-2 flex-wrap">
-                    <SkillBar
-                      skillName="Tailwind CSS"
-                      percentage={100}
-                    />
-                    <SkillBar
-                      skillName="React"
-                      percentage={100}
-                    />
-                    <SkillBar
-                      skillName="Next.js"
-                      percentage={70}
-                    />
-                    <SkillBar
-                      skillName="Bootstrap"
-                      percentage={30}
-                    />
+                    <SkillBar skillName="Tailwind CSS" percentage={100} />
+                    <SkillBar skillName="React" percentage={100} />
+                    <SkillBar skillName="Next.js" percentage={70} />
+                    <SkillBar skillName="Bootstrap" percentage={30} />
 
-                    <SkillBar
-                      skillName="MongoDB"
-                      percentage={30}
-                    />
+                    <SkillBar skillName="MongoDB" percentage={30} />
                   </div>
                 </div>
 
@@ -216,26 +168,11 @@ export default function CV() {
                     tools & softwares
                   </p>
                   <div className="flex flex-row font-inter gap-2 flex-wrap">
-                    <SkillBar
-                      skillName="VS Code"
-                      percentage={100}
-                    />
-                    <SkillBar
-                      skillName="Node.js"
-                      percentage={40}
-                    />
-                    <SkillBar
-                      skillName="Git"
-                      percentage={60}
-                    />
-                    <SkillBar
-                      skillName="Adobe Photoshop"
-                      percentage={60}
-                    />
-                    <SkillBar
-                      skillName="Figma"
-                      percentage={60}
-                    />
+                    <SkillBar skillName="VS Code" percentage={100} />
+                    <SkillBar skillName="Node.js" percentage={40} />
+                    <SkillBar skillName="Git" percentage={60} />
+                    <SkillBar skillName="Adobe Photoshop" percentage={60} />
+                    <SkillBar skillName="Figma" percentage={60} />
                   </div>
                 </div>
               </div>
@@ -254,11 +191,9 @@ export default function CV() {
             </div>
             <div className="flex flex-col w-2/3 relative">
               <div className="flex flex-col text-[10px] font-inter laptop:text-[1.1vw]">
-                <p className="pb-[1vw]"> 2023 - present</p>
+                <p className="pb-[1vw]"> 2023 - 2027</p>
                 <div>
-                  <p className="font-bold ">
-                    Belarusian State University
-                  </p>
+                  <p className="font-bold ">Belarusian State University</p>
                   Math & CS
                 </div>
               </div>
@@ -277,7 +212,7 @@ export default function CV() {
             </div>
             <div className="flex flex-col w-2/3 relative">
               <div className="flex flex-col text-[10px] laptop:text-[1.1vw] font-inter ">
-                <p>Russian - C2</p>
+                <p>Russian - Native</p>
                 <p>English - B2</p>
               </div>
             </div>
